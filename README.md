@@ -11,7 +11,7 @@ openssl rand 96 > master-key.txt
 ## 2. Modifica i file
 
 modifica il file your_credential.js e aggiungi il link al tuo MDB v.7
-il path alla libreria "mongodb-client-encryption" se usi quella che ho scaricato io e che trovi nel folder non devi far nulla
+il path alla libreria "mongodb-client-encryption" da scaricare e aprire nelal stessa folder di progetto
 inserisci il path al file della libreria anche nelle variabili "extraOptions" dei file make_data_key e insert_encrypted_document.
 
 ## 3. Esegui
