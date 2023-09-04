@@ -1,15 +1,20 @@
+Questo progetto è stato creato per illustrare il processo di utilizzo di MongoDB Client Encryption. 
+Segui le istruzioni seguenti per configurare e eseguire il progetto.
 
-1)genera il certificato così:
+## 1. Generazione del certificato
 
-openssl rand 96 > master-key.txt 
-il file dovrà risiedere nella stassa foder del progetto.
+Esegui il seguente comando per generare un certificato `master-key.txt` nella stessa directory del progetto:
 
-2) modifica i file
-modifica il file your_credential.js e aggiungi il link al tuo MDB versione 7
+openssl rand 96 > master-key.txt
+
+
+## 2. Modifica i file
+
+modifica il file your_credential.js e aggiungi il link al tuo MDB v.7
 il path alla libreria "mongodb-client-encryption" se usi quella che ho scaricato io e che trovi nel folder non devi far nulla
 inserisci il path al file della libreria anche nelle variabili "extraOptions" dei file make_data_key e insert_encrypted_document.
 
-3) ESEGUI
+## 3. Esegui
 
 A - node make_data_key.js (solo la prima volta)
     Potresti avere degli errori di sicurezza MAC:
