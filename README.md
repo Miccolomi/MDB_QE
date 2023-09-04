@@ -1,4 +1,4 @@
-Questo progetto è stato creato per illustrare il processo di utilizzo di MongoDB Client Encryption. 
+Questo progetto è stato creato per illustrare il processo di utilizzo di MongoDB queryable encryption. 
 Segui le istruzioni seguenti per configurare e eseguire il progetto.
 
 ## 1. Generazione del certificato
