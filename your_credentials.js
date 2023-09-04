@@ -8,7 +8,7 @@ function getCredentials() {
 
 const credentials = {
   // Mongo Paths + URI
-  MONGODB_URI: "mongodb+srv://michele:michele@qe.ve3iw.mongodb.net/?retryWrites=true&w=majority", // DB
+  MONGODB_URI: "mongodb+srv://xxxx:xxxx@qe.ve3iw.mongodb.net/?retryWrites=true&w=majority", // DB
   SHARED_LIB_PATH: "./m_crypt_shared/lib/mongo_crypt_v1.dylib", // libreria in locale
 };
 
