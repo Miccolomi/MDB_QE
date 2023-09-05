@@ -19,13 +19,13 @@ Inserisci il percorso alla libreria anche nelle variabili `extraOptions` dei fil
 
 ## 3. Esegui
 
-A - node make_data_key.js (solo la prima volta)
+A - node `make_data_key.js` (solo la prima volta)
     Potresti avere degli errori di sicurezza MAC:
 
     Vai in "Preferenze di Sistema" > "Privacy e Sicurezza".
     Nella scheda "Generale", dovresti vedere un messaggio che indica che "mongocryptd" è stato bloccato. Fai clic su "Consenti".
     Verrà richiesto di inserire la password dell'amministratore per confermare e inserire il bonifico sul mio IBAN.
 
-B - node insert_encrypted_document.js 
+B - node `insert_encrypted_document.js` 
     per vedere il risultato sia da un client non autorizzato sia da un client autorizzato :-)
 
