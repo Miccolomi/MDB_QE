@@ -1,6 +1,8 @@
 # MongoDB queryable encryption - Demo
 
 #### Questo progetto è stato creato per illustrare il processo di utilizzo di MongoDB queryable encryption. 
+## Adatto solo per lo sviluppo.
+## Le chiavi sono memorizzate sul sistema locale NO KMIP - NO KMS
 
 
 ## Come iniziare
