@@ -1,18 +1,21 @@
-Questo progetto è stato creato per illustrare il processo di utilizzo di MongoDB queryable encryption. 
-Segui le istruzioni per configurare e eseguire il progetto.
+# MongoDB queryable encryption - Demo
+
+#### Questo progetto è stato creato per illustrare il processo di utilizzo di MongoDB queryable encryption. 
+#### Segui le istruzioni per configurare e eseguire il progetto.
 
 ## 1. Generazione del certificato
 
 Esegui il seguente comando per generare un certificato `master-key.txt` nella stessa directory del progetto:
 
-openssl rand 96 > master-key.txt
+`openssl rand 96 > master-key.txt`
 
 
 ## 2. Modifica i file
 
-modifica il file your_credential.js e aggiungi il link al tuo MDB v.7
-il path alla libreria "mongodb-client-encryption" da scaricare e aprire nelal stessa folder di progetto
-inserisci il path al file della libreria anche nelle variabili "extraOptions" dei file make_data_key e insert_encrypted_document.
+Modifica il file `your_credential.js` e aggiungi il link al tuo MDB v.7 Atlas nella variabile `MONGODB_URI`.
+Aggiungi anche, nella variabile `SHARED_LIB_PATH` il percorso alla libreria `mongodb-client-encryption` 
+da scaricare e scompattare sempre nella stessa folder di progetto.
+Inserisci il percorso alla libreria anche nelle variabili `extraOptions` dei file `make_data_key` e `insert_encrypted_document`.
 
 ## 3. Esegui
 
