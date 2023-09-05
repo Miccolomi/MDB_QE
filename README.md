@@ -1,7 +1,6 @@
 # MongoDB queryable encryption - Demo
 
 #### Questo progetto è stato creato per illustrare il processo di utilizzo di MongoDB queryable encryption. 
-#### Segui le istruzioni per configurare e eseguire il progetto.
 
 
 ## Come iniziare
