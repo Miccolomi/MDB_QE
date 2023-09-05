@@ -3,9 +3,15 @@
 #### Questo progetto è stato creato per illustrare il processo di utilizzo di MongoDB queryable encryption. 
 #### Segui le istruzioni per configurare e eseguire il progetto.
 
+
+## Come iniziare
+Installare NodeJS & NPM.
+Clonare questo repository. 
+Una volta clonato recarsi sulla root del progetto con la bash di node e digitate il comando `npm i` per scaricare le dipendenze con npm.
+
 ## 1. Generazione del certificato
 
-Esegui il seguente comando per generare un certificato `master-key.txt` nella stessa directory del progetto:
+Esegui il seguente comando per generare il tuo certificato `master-key.txt` nella stessa directory del progetto:
 
 `openssl rand 96 > master-key.txt`
 
